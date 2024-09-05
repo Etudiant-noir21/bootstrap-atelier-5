@@ -1,0 +1,316 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto' ,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    max-width: 1500px;
+    overflow-x: hidden;
+}
+h2{
+    font-family: "Amatic SC", sans-serif;
+}
+h2 span{
+    font-family: "Amatic SC", sans-serif;
+    color: #D53535;
+}
+
+section{
+    padding: 80px 40px;
+}
+p{
+    color: #5F6265;
+    font-weight: 400;
+}
+:root{
+    ---color-red: #D53535;
+    ---color23: #37373F;
+    ---bg-home: #F2F2F2;
+}
+/* navbar */
+.navbar{
+    padding: 30px;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+}
+.navbar .navbar-brand {
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.navbar .nav-link{
+    margin-right: 5px;
+    font-weight: 500;
+    transition:  0.3s ease;
+}
+.navbar .nav-link.active{
+    border-bottom: 2px solid #D53535;
+}
+.navbar .nav-link:focus{
+    border-bottom: 2px solid #D53535;
+}
+.navbar .nav-link:hover{
+    border-bottom: 2px solid #D53535;
+}
+.navbar .book .btn{
+    background-color: #D53535;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+}
+/* home */
+#home{
+    background-color: var(---bg-home);
+}
+#home .home-link .book a{
+    /* padding: 10px; */
+    background-color: #D53535;
+border-radius: 20px;
+margin-right: 20px;
+width: 200px;
+}
+.home-link .book a{
+    color: #fff;
+}
+.home-link .book a:hover{
+    opacity: 0.8;
+}
+
+#home .home-link  i{
+    font-size: 30px;
+    color: #D53535;
+}
+/* about */
+#about .heading span{
+    font-weight: 100;
+    color: #D53535;
+}
+#about .book-table{
+    border: 3px solid #5F6265;
+}
+#about .book-table p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#about .book-table p:nth-child(1){
+    color: #000;
+}
+#about .book-table p:nth-child(2){
+    color: #D53535;
+}
+.about-content-2 ul i{
+    color: #D53535;
+}
+.img-about-2 .link{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-about-2 .link a{
+    color: #fff;
+    font-size: 30px;
+    background-color: var(---color-red);
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* undefined */
+#undefined{
+    background-color: var(---bg-home);
+}
+#undefined .choose{
+    background-color: var(---color-red);
+    color: #fff;
+}
+#undefined .choose p{
+    color: #fff;
+}
+#undefined .choose a{
+    color: #fff;
+    text-align: center;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #DB4F4F;
+    transition: 0.3s ease-in-out;
+}
+#undefined .choose a:hover{
+    background-color: #fff;
+    color: #D53535;
+}
+#undefined .undefined-2{
+    text-align: center;
+}
+#undefined .undefined-2 i{
+    font-size: 30px;
+    color: #D53535;
+    width: 50px;
+    height: 50px;
+    background-color: var(---bg-home);
+    padding: 15px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+
+}
+#undefined .undefined-2:hover i{
+    color: #fff;
+    background-color: #D53535;
+}
+/* stats */
+#stats{
+    background:linear-gradient(rgba(0, 0, 0, 0.721), rgba(0, 0, 0, 0.525)), no-repeat center / cover url(imgs/stats-bg.jpg);
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}#stats span{
+    font-size: 3rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#stats span small{
+    font-size: 1rem;
+    color: #C4C2C3;
+    font-weight: 500;
+}
+/* menu */
+#menu ul a{
+color: #37373F;
+font-size: 24px;
+transition: 0.2s ease-in-out;
+padding-bottom: 5px;
+border-bottom: 3px solid #e4e4e5;
+}
+#menu ul a:hover{
+border-bottom: 3px solid #D53535;
+}
+#menu ul a:focus{
+    border-bottom: 3px solid #D53535;
+    }
+    #menu .img span{
+        color: var(---color-red);
+        font-size: 2em;
+        font-weight: 600;
+    }
+    /* testimonial */
+    #testimonial{
+        background-color: var(---bg-home);
+    }
+    #testimonial .img-slide img{
+       border-radius: 50%;
+       /* width: 200px; */
+    }
+#testimonial .swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#testimonial .parent-slide{
+   width: 100%;
+   margin: auto;
+   padding: 0 30px;
+   border-left: 3px solid var(---color-red);
+   justify-content: center;
+
+}
+#testimonial .infos-perso p{
+    font-family: "Amatic SC", sans-serif;
+    color: #300030;
+    font-weight: 600;
+
+}
+#testimonial .infos-perso small{
+    font-family: "Amatic SC", sans-serif;
+}
+#testimonial .swiper-container{
+    position: relative;
+}
+#testimonial .swiper-pagination{
+    position: absolute;
+    bottom: 0;
+}
+/* events */
+#events .swiper-slide{
+   position: relative;
+}
+#events .text-slide{
+    position: absolute;
+    bottom: 5%;
+    padding:0  1rem;
+}
+#events .text-slide span{
+    font-weight: 700;
+    font-size: 2rem;
+}
+/* chefs */
+#chefs .team-img{
+    position: relative;
+}
+#chefs .team-img::after{
+        position: absolute;
+        content: "";
+        left: -1px;
+        right: -1px;
+        bottom: -1px;
+        height: 100%;
+        background-color: #fff;
+        -webkit-mask: url(imgs/team-shape.svg) no-repeat center bottom;
+        mask: url(imgs/team-shape.svg) no-repeat center bottom;
+        -webkit-mask-size: contain;
+        mask-size: contain;
+        z-index: 1;
+}
+#chefs .content-chef{
+    position: relative;
+    overflow-x: hidden;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+}
+#chefs .content-chef .social-media{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 5%;
+    right: 10%;
+    background-color: var(---bg-home);
+    opacity: 0.5;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+    transform: translateX(200%);
+    transition: 0.5s ease-in-out;
+}
+
+#chefs .content-chef:hover{
+    transform: scale(1.1);
+}
+#chefs .content-chef:hover .social-media{
+    transform: translateX(0);
+}
+#chefs .infos-members{
+    background-color: #fff;
+    font-size: 12px;
+}

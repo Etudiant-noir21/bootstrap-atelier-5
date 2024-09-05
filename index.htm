@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelier bootstrap tache 5</title>
+    <!-- cdn bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+     <!-- cdn icon -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+     <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <!-- amatic sc font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+     
+      <!-- swipper css-->
+      
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+      <!-- swipper event -->
+      <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    
+     <!-- stye css -->
+      <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg shadow">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Yummy.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Chefs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <div class="book">
+                <a href="#" class="btn">Book a Table</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- section home -->
+       <section id="home" class="home_wrapper">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-6 col-lg-6 p-2 order-2 order-lg-1">
+              <div class="home-right px-3">
+                <h2 class="display-1">Enjoy Your Healthy
+                  Delicious Food</h2>
+                  <p class="fs-4">
+                    We are team of talented designers making websites with Bootstrap
+                  </p>
+                  <div class="home-link d-flex gap-3 align-items-center mt-5">
+                   <span class="book"><a href="#" class="btn p-2">Booka a Table</a></span> 
+                   <span class="icon"><a href="#" class="btn d-flex align-items-center gap-3"><i class="bi bi-play-circle"></i> watch Video</a></span> 
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 p-2 order-1 order-lg-2">
+              <div class="home-left px-3">
+                <img src="imgs/hero-img.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+       <!-- about -->
+        <section id="about" class="about_wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <div class="heading text-uppercase">
+                  <h6><small>About Us</small></h6>
+                  <h2 class="display-2">Learn More <span>About Us</span></h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-lg-8 p-2">
+                <div class="about-content px-2 mt-3">
+                  <img src="imgs/about-1.jpg" alt="" class="img-fluid">
+                  <div class="book-table text-center p-2 mt-2">
+                    <p>Book a Table</p>
+                    <p>+1 5589 55488 55</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 p-2">
+                <div class="about-content-2 px-2">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                     elit, sed do eiusmod 
+                    tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+                  <ul class="mt-2">
+                    <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea 
+                      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                       trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                  </ul>
+                  <p class="mt-3">
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                     esse cillum dolore eu fugiat nulla pariatur.
+                     Excepteur sint occaecat cupidatat non proident
+                  </p>
+                  <div class="img-about-2 position-relative">
+                    <img src="imgs/about-2.jpg" alt="" class="img-fluid">
+                    <div class="link position-absolute">
+                      <a href="#"><i class="bi bi-play-fill"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- undefined section -->
+         <section id="undefined">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-6 col-lg-4 p-2">
+                <div class="choose p-5 text-white">
+                  <h3 class="fw-bold">Why Choose Yummy</h3>
+                  <p class="mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     Duis aute irure dolor in reprehenderit Asperiores dolores sed et.
+                      Tenetur quia eos.
+                     Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                  </p>
+                  <div class="link mt-4 text-center">
+                    <a href="#" class="btn shadow ">Learn More ></a>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-2 p-2 undefined-2">
+                <div class="p-4 shadow">
+                  <div class="icon">
+                    <i class="bi bi-clipboard-data"></i>
+                  </div>
+                  <h4 class="mt-3">Corporis voluptates officia eiusmod</h4>
+                  <p class="mt-4">
+                    Consequuntur sunt aut quasi enim aliquam quae harum pariatur
+                     laboris nisi ut aliquip
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-2 p-2 undefined-2">
+                <div class="p-4 shadow">
+                  <div class="icon">
+                    <i class="bi bi-gem"></i>
+                  </div>
+                  <h4 class="mt-3">Corporis voluptates officia eiusmod</h4>
+                  <p class="mt-4">
+                    Consequuntur sunt aut quasi enim aliquam quae harum pariatur
+                     laboris nisi ut aliquip
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-2 p-2 undefined-2">
+                <div class="p-4 shadow">
+                  <div class="icon">
+                    <i class="bi bi-inboxes"></i>
+                  </div>
+                  <h4 class="mt-3">Corporis voluptates officia eiusmod</h4>
+                  <p class="mt-4">
+                    Consequuntur sunt aut quasi enim aliquam quae harum pariatur
+                     laboris nisi ut aliquip
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+         </section>
+         <!-- stats -->
+          <section id="stats">
+            <div class="container">
+              <div class="row  justify-content-center">
+                <div class="col-md-6 col-lg-3">
+                  <div>
+                    <span data-purecounter-start="0" 
+                    data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"><strong>232</strong> <small>Clients</small></span>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                  <div>
+                    <span data-purecounter-start="0" 
+                    data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"><strong>232</strong> <small>Clients</small></span>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                  <div>
+                    <span data-purecounter-start="0" 
+                    data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"><strong>232</strong> <small>Clients</small></span>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                  <div>
+                    <span data-purecounter-start="0" 
+                    data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"><strong>232</strong> <small>Clients</small></span>
+                  </div>
+                </div>
+              
+
+              </div>
+            </div>
+          </section>
+          <!-- menu -->
+           <section id="menu">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 text-center">
+                  <h6>Our Menu</h6>
+                  <h2 class="text-uppercase display-2">Check Our <span>Yummy Menu </span> </h2>
+                </div>
+                <div class="col-12">
+                  <ul class="d-flex justify-content-center align-items-center gap-4">
+                    <li><a href="#">Starters</a></li>
+                    <li><a href="#">Breakfast</a></li>
+                    <li><a href="#">Lunch</a></li>
+                    <li><a href="#">Dinner</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row mt-5">
+                <div class="col-md-6 col-lg-4 p-2">
+                  <div class="img px-3 text-center">
+                    <img src="imgs/menu-item-1.png" alt="" class="img-fluid">
+                    <h5 class="mt-3">Magnam Tiste</h5>
+                    <p>Lorem, deren, trataro, filede, nerada</p>
+                    <span>$5.95</span>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 p-2">
+                  <div class="img px-3 text-center">
+                    <img src="imgs/menu-item-2.png" alt="" class="img-fluid">
+                    <h5 class="mt-3">Magnam Tiste</h5>
+                    <p>Lorem, deren, trataro, filede, nerada</p>
+                    <span>$14.95</span>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 p-2">
+                  <div class="img px-3 text-center">
+                    <img src="imgs/menu-item-3.png" alt="" class="img-fluid">
+                    <h5 class="mt-3">Magnam Tiste</h5>
+                    <p>Lorem, deren, trataro, filede, nerada</p>
+                    <span>$8.95</span>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 p-2">
+                  <div class="img px-3 text-center">
+                    <img src="imgs/menu-item-4.png" alt="" class="img-fluid">
+                    <h5 class="mt-3">Magnam Tiste</h5>
+                    <p>Lorem, deren, trataro, filede, nerada</p>
+                    <span>$12.95</span>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 p-2">
+                  <div class="img px-3 text-center">
+                    <img src="imgs/menu-item-5.png" alt="" class="img-fluid">
+                    <h5 class="mt-3">Magnam Tiste</h5>
+                    <p>Lorem, deren, trataro, filede, nerada</p>
+                    <span>$12.95</span>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 p-2">
+                  <div class="img px-3  text-center">
+                    <img src="imgs/menu-item-6.png" alt="" class="img-fluid">
+                    <h5 class="mt-3">Magnam Tiste</h5>
+                    <p>Lorem, deren, trataro, filede, nerada</p>
+                    <span>$9.95</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </section>
+           <!-- testimonial -->
+            <section id="testimonial">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <h6>TESTIMONIALS</h6>
+                    <h2 class="display-2 text-uppercase">What Are They <span>Saying About Us</span> </h2>
+                  </div>
+                  <div class="swiper-container">
+                    <div class="swiper-wrapper position-relative">
+                        <div class="swiper-slide">
+                          <div class="row d-flex justify-content-center align-items-center">
+                            <div class="col-md-6 col-lg-6 p-2">
+                              <div class="parent-slide">
+                                <span>
+                                  <i class="bi bi-quote quote-icon-left"></i>
+                                  Proin iaculis purus consequat sem cure digni ssim donec 
+                                  porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id,
+                                   aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                   <i class="bi bi-quote quote-icon-right"></i>
+                              </span>
+                              <div class="infos-perso mt-2">
+                                <p class="nom">Luis Morales</p>
+                                <small class="mb-0">Developer</small>
+                                <div class="icon text-warning">
+                                  <i class="bi bi-star-fill"></i>
+                                  <i class="bi bi-star-fill"></i>
+                                  <i class="bi bi-star-fill"></i>
+                                  <i class="bi bi-star-fill"></i>
+                                  <i class="bi bi-star-fill"></i>
+                                </div>
+                              </div>
+                              </div>
+                            
+                            </div>
+                            <div class="col-md-6 col-lg-4 p-2">
+                              <div class="img-slide px-2 me-5">
+                                <img src="imgs/testimonials-1.jpg" alt="" class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="row d-flex justify-content-center align-items-center">
+                            <div class="col-md-6 col-lg-6 p-2">
+                              <div class="parent-slide">
+                                <span>
+                                  <i class="bi bi-quote quote-icon-left"></i>
+                                  Proin iaculis purus consequat sem cure digni ssim donec 
+                                  porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id,
+                                   aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                   <i class="bi bi-quote quote-icon-right"></i>
+                              </span>
+                              <div class="infos-perso mt-2">
+                                <p class="nom">Luis Morales</p>
+                                <small class="mb-0">Developer</small>
+                                <div class="icon text-warning">
+                                  <i class="bi bi-star-fill"></i>
+                                  <i class="bi bi-star-fill"></i>
+                                  <i class="bi bi-star-fill"></i>
+                                  <i class="bi bi-star-fill"></i>
+                                  <i class="bi bi-star-fill"></i>
+                                </div>
+                              </div>
+                              </div>
+                         
+                            </div>
+                            <div class="col-md-6 col-lg-4 p-2">
+                              <div class="img-slide px-2 me-5">
+                                <img src="imgs/testimonials-2.jpg" alt="" class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="row d-flex justify-content-center align-items-center">
+                            <div class="col-md-6 col-lg-6 p-2">
+                              <div class="parent-slide">
+                                <span>
+                                  <i class="bi bi-quote quote-icon-left"></i>
+                                  Proin iaculis purus consequat sem cure digni ssim donec 
+                                  porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id,
+                                   aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                   <i class="bi bi-quote quote-icon-right"></i>
+                              </span>
+                              <div class="infos-perso mt-2">
+                                <p class="nom">Luis Morales</p>
+                                <small class="mb-0">Developer</small>
+                                <div class="icon text-warning">
+                                  <i class="bi bi-star-fill"></i>
+                                  <i class="bi bi-star-fill"></i>
+                                  <i class="bi bi-star-fill"></i>
+                                  <i class="bi bi-star-fill"></i>
+                                  <i class="bi bi-star-fill"></i>
+                                </div>
+                              </div>
+                              </div>
+                             
+                            </div>
+                            <div class="col-md-6 col-lg-4 p-2">
+                              <div class="img-slide px-2 me-5">
+                                <img src="imgs/testimonials-3.jpg" alt="" class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                </div>
+                
+                </div>
+              </div>
+            </section>
+            <!-- events -->
+             <section id="events">
+              <div class="container">
+                <div class="row">
+                  <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide" style="background:linear-gradient(rgba(0, 0, 0, 0.388),rgba(0, 0, 0, 0.47)) , url(imgs/events-1.jpg);background-size: cover; background-repeat: no-repeat height: 100vh;  ">
+                        <div class="text-slide text-white ">
+                          <h3>Birthday party</h3>
+                          <span>$899</span>
+                          <p class="text-white">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio
+                             libero eligendi 
+                            nostrum nisi soluta praesentium natus pariatur facere architecto labore?
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide" style="background:linear-gradient(rgba(0, 0, 0, 0.388),rgba(0, 0, 0, 0.47)) , url(imgs/events-2.jpg);background-size: cover; background-repeat: no-repeat height: 100vh;  ">
+                        <div class="text-slide text-white ">
+                          <h3>Birthday party</h3>
+                          <span>$899</span>
+                          <p class="text-white">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio
+                             libero eligendi 
+                            nostrum nisi soluta praesentium natus pariatur facere architecto labore?
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide" style="background:linear-gradient(rgba(0, 0, 0, 0.388),rgba(0, 0, 0, 0.47)) , url(imgs/events-3.jpg);background-size: cover; background-repeat: no-repeat height: 100vh;  ">
+                        <div class="text-slide text-white ">
+                          <h3>Birthday party</h3>
+                          <span>$899</span>
+                          <p class="text-white">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio
+                             libero eligendi 
+                            nostrum nisi soluta praesentium natus pariatur facere architecto labore?
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide" style="background:linear-gradient(rgba(0, 0, 0, 0.388),rgba(0, 0, 0, 0.47)) , url(imgs/events-4.jpg); background-size: cover; background-repeat: no-repeat; height: 100vh;  ">
+                        <div class="text-slide text-white ">
+                          <h6>Birthday party</h6>
+                          <span>$899</span>
+                          <p class="text-white">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio
+                             libero eligendi 
+                            nostrum nisi soluta praesentium natus pariatur facere architecto labore?
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                  </div>
+                </div>
+              </div>
+             </section>
+
+              <!-- chefs -->
+               <section id="chefs">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="titles-chefs text-center">
+                        <h6>chefs</h6>
+                        <h2 class="display-3 text-uppercase">
+                          Our <span>Proffesional Chefs</span>
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6 col-lg-4 p-2">
+                        <div class="content-chef p-2 shadow">
+                          <div class="team-img">
+                            <img src="imgs/chefs-1.jpg" alt="" class="img-fluid">
+                          </div>
+                          <div class="social-media">
+                            <span><i class="bi bi-twitter-x"></i></span>
+                            <span><i class="bi bi-facebook"></i></span>
+                            <span><i class="bi bi-instagram"></i></span>
+                            <span><i class="bi bi-linkedin"></i></span>
+                          </div>
+                          <div class="infos-members text-center">
+                            <h4 class="name">Walter White</h4>
+                            <p class="work">Master Chef</p>
+                            <p>
+                              Velit aut quia fugit et et. Dolorum ea voluptate vel
+                               tempore tenetur ipsa quae aut. Ipsum exercitationem
+                                iure minima enim corporis et voluptate.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-4 p-2">
+                        <div class="content-chef p-2 shadow">
+                          <div class="team-img">
+                            <img src="imgs/chefs-2.jpg" alt="" class="img-fluid">
+                          </div>
+                          <div class="social-media">
+                            <span><i class="bi bi-twitter-x"></i></span>
+                            <span><i class="bi bi-facebook"></i></span>
+                            <span><i class="bi bi-instagram"></i></span>
+                            <span><i class="bi bi-linkedin"></i></span>
+                          </div>
+                          <div class="infos-members text-center">
+                            <h4 class="name">Sarah Jhonson</h4>
+                            <p class="work">Patissier</p>
+                            <p>
+                              Quo esse repellendus quia id. Est eum et accusantium
+                               pariatur fugit nihil minima suscipit corporis.
+                               Voluptate sed quas reiciendis animi neque sapiente.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-4 p-2">
+                        <div class="content-chef p-2 shadow">
+                          <div class="team-img">
+                            <img src="imgs/chefs-3.jpg" alt="" class="img-fluid">
+                          </div>
+                          <div class="social-media">
+                            <span><i class="bi bi-twitter-x"></i></span>
+                            <span><i class="bi bi-facebook"></i></span>
+                            <span><i class="bi bi-instagram"></i></span>
+                            <span><i class="bi bi-linkedin"></i></span>
+                          </div>
+                          <div class="infos-members text-center">
+                            <h4 class="name">William Anderson</h4>
+                            <p class="work">Cook</p>
+                            <p>
+                              Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt.
+                               Voluptates enim aut architecto porro aspernatur molestiae modi.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </section>
+
+
+             <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+             <!-- js swipper events -->
+              <script>
+                var swiper = new Swiper('.swiper', {
+                 // Optional parameters
+                //  slidesPerView: 3, // Nombre de diapositives visibles
+                 loop: true,
+
+                 // If we need pagination
+                 pagination: {
+                   el: '.swiper-pagination',
+                   clickable: true,
+                 },
+                 autoplay: {
+                        delay: 3000, // Durée en millisecondes avant de changer de slide
+                        disableOnInteraction: false, // Ne pas arrêter l'autoplay lors d'une interaction
+                    },
+                    effect: 'slide', // Effet de transition entre les slides (peut être 'slide', 'fade', 'cube', etc.)
+                    speed: 600, // Vitesse de transition en millisecondes
+                 // And if we need scrollbar
+                 scrollbar: {
+                   el: '.swiper-scrollbar',
+                 },
+                  // Responsivité : adaptation selon la taille de l'écran
+                   breakpoints: {
+                     // Ecrans de moins de 640px (téléphones)
+                     640: {
+                       slidesPerView: 1, // Affiche 1 slide
+                     },
+                     // Ecrans entre 641px et 768px (tablettes)
+                     768: {
+                       slidesPerView: 2, // Affiche 2 slides
+                     },
+                     // Ecrans de plus de 1024px (grands écrans)
+                     1200: {
+                       slidesPerView: 3, // Affiche 3 slides
+                     }
+                   }
+              });
+              </script>
+              
+                                         <!-- swippers js -->
+               <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+               <script>
+                var swiper = new Swiper('.swiper-container', {
+                    // Paramètres du slider
+                    loop: true, // Répétition en boucle des slides
+                   
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                    autoplay: {
+                        delay: 5000, // Durée en millisecondes avant de changer de slide
+                        disableOnInteraction: false, // Ne pas arrêter l'autoplay lors d'une interaction
+                    },
+                    effect: 'slide', // Effet de transition entre les slides (peut être 'slide', 'fade', 'cube', etc.)
+                    speed: 600, // Vitesse de transition en millisecondes
+                });
+            </script>
+            
+                                          <!-- purecounter -->
+          <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs@1.5.0/dist/purecounter_vanilla.js"></script>
+
+                                <!-- js bootsrrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
