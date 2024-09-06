@@ -29,7 +29,9 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    
+    <!-- counter -->
+ <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs@1.1.5/dist/purecounter_vanilla.js"></script>
+
      <!-- stye css -->
       <link rel="stylesheet" href="styles.css">
 </head>
@@ -230,19 +232,19 @@
                 <div class="col-md-6 col-lg-3">
                   <div>
                     <span data-purecounter-start="0" 
-                    data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"><strong>232</strong> <small>Clients</small></span>
+                    data-purecounter-end="232" data-purecounter-duration="1.5" class="purecounter"><strong>232</strong> <small>Clients</small></span>
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                   <div>
                     <span data-purecounter-start="0" 
-                    data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"><strong>232</strong> <small>Clients</small></span>
+                    data-purecounter-end="232" data-purecounter-duration="2" class="purecounter"><strong>232</strong> <small>Clients</small></span>
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                   <div>
                     <span data-purecounter-start="0" 
-                    data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"><strong>232</strong> <small>Clients</small></span>
+                    data-purecounter-end="232" data-purecounter-duration="2.5" class="purecounter"><strong>232</strong> <small>Clients</small></span>
                   </div>
                 </div>
               
@@ -579,8 +581,254 @@
                   </div>
                 </div>
                </section>
+              <!-- reservation -->
+               <section id="reservation">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="titles text-center tsxt-uppercase">
+                        <h6>Book A Table</h6>
+                        <h2 class="display-3">Book Your <span>Stay With Us</span></h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row align-items-center reservation-rows">
+                    <div class="col-md-6 col-lg-4 p-2 reservation-img" style="background-image: url(imgs/reservation.jpg); background-size: cover; background-repeat: no-repeat;"></div>
+                    <div class="col-md-6 col-lg-8 p-2">
+                      <form action="" method="post">
+                        <div class="row p-2">
+                          <div class="col-md-6 col-lg-4 p-2">
+                            <input type="text" name="name" id="name" placeholder="You Name" class="form-control">
+                          </div>
+                          <div class="col-md-6 col-lg-4 p-2">
+                            <input type="email" name="email" id="email" placeholder="You Email" class="form-control">
+                          </div>
+                          <div class="col-md-6 col-lg-4 p-2">
+                            <input type="tel" name="telephone" id="phone" placeholder="Your Phone" class="form-control">
+                          </div>
+                          
+                        </div>
+                        <div class="row p-2">
+                          <div class="col-md-6 col-lg-4 p-2">
+                            <input type="date" name="date" id="date"  class="form-control">
+                          </div>
+                          <div class="col-md-6 col-lg-4 p-2">
+                            <input type="time" name="heur" id="heur" placeholder="You Email" class="form-control">
+                          </div>
+                          <div class="col-md-6 col-lg-4 p-2">
+                            <input type="number" name="people" id="number" placeholder="#of people" class="form-control">
+                          </div>
+                        </div>
+                        <div class="col-md-6p p-2">
+                          <textarea name="message" id="message" cols="30" rows="5" placeholder="message" class="form-control"></textarea>
+                        </div>
+                        <button type="submit">Book a Table</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+               </section>
+               <!-- Gallery -->
+                <section id="gallery">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="gllery-titles text-center">
+                          <h6>Gallery</h6>
+                          <h2 class="display-3">Check <span>Our Gallery</span></h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swipers">
+                      <!-- Additional required wrapper -->
+                      <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                          <img src="imgs/gallery-1.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="imgs/gallery-2.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="imgs/gallery-3.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="imgs/gallery-4.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="imgs/gallery-5.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="imgs/gallery-6.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="imgs/gallery-7.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="imgs/gallery-8.jpg" alt="" class="img-fluid">
+                        </div>
+                        
+                      </div>
+                      <!-- If we need pagination -->
+                      <div class="swiper-pagination"></div>
+                    
+                    
+                    </div>
+                  </div>
+                </section>
+                <!-- contact -->
+                 <section id="contact">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="titles text-center">
+                          <h6>Contact</h6>
+                          <h2 class="display-3">Need Help? <span>Contact Us</span></h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                      <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                              frameborder="0" allowfullscreen="" loading="lazy">
+                      </iframe>
+                    </div>
+                    <div class="row mt-5">
+                      <div class="col-md-6 col-lg-6 p-2">
+                        <div class="p-2 shadow d-flex align-items-center">
+                          <div class="icon">
+                            <i class="bi bi-geo-alt"></i>
+                          </div>
+                          <div class="text">
+                            <h4 class="fw-bold">Address</h4>
+                            <p>
+                              A108 Adam Street, New York, NY 535022
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-6 p-2">
+                        <div class="p-2 shadow d-flex align-items-center">
+                          <div class="icon">
+                            <i class="bi bi-telephone"></i>
+                          </div>
+                          <div class="text">
+                            <h4 class="fw-bold">Call Us</h4>
+                            <p>
+                              +1 5589 55488 55
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-6 p-2">
+                        <div class="p-2 shadow d-flex align-items-center">
+                          <div class="icon">
+                            <i class="bi bi-envelope"></i>
+                          </div>
+                          <div class="text">
+                            <h4 class="fw-bold">Email Us</h4>
+                            <p>
+                              info@example.com
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-6 p-2">
+                        <div class="p-2 shadow d-flex align-items-center">
+                          <div class="icon">
+                            <i class="bi bi-geo-alt"></i>
+                          </div>
+                          <div class="text">
+                            <h4 class="fw-bold">Opening Hours</h4>
+                            <p>
+                             <b> Mon-Sat:</b> 11AM - 23PM; <b>Sunday:</b> Closed
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row shadow mt-3 p-5">
+                      <form action="" method="post">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-6 p-2">
+                            <input type="text" name="name" id="name" placeholder="Your Name" class="form-control">
+                          </div>
+                          <div class="col-md-6 col-lg-6 p-2">
+                            <input type="email" name="email" id="mail" placeholder="Your Email" class="form-control">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="mt-2">
+                            <input type="text" name="text" id="text" placeholder="Subject" class="form-control">
+                          </div>
+                          <div class="mt-2">
+                            <textarea name="message" id="mess" cols="30" rows="5" placeholder="message" class="form-control"></textarea>
+                          </div>
+                          <button type="submit">Send message</button>
+                        </div>
+                       
+                      </form>
+                    </div>
+                  </div>
+                 </section>
+                 <!-- footer -->
+                 <footer class="mt-5 p-5">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-6 col-lg-3 p-2">
+                        <div class="element p-1">
+                          <div class="address">
+                            <i class="bi bi-geo-alt"></i> <strong class="ms-2">Address</strong>
+                            <p>
+                              A108 Adam Street
+                              New York, NY 535022
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-3 p-2">
+                        <div class="element p-1">
+                          <div class="address">
+                            <i class="bi bi-telephone"></i> <strong class="ms-2">Contact</strong>
+                            <p>
+                              Phone: +1 5589 55488 55
+                              Email: info@example.com
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-3 p-2">
+                        <div class="element p-1">
+                          <div class="Opening Hours">
+                            <i class="bi bi-stopwatch"></i> <strong class="ms-2">Opening Hours</strong>
+                            <p>
+                             <strong>Mon-Sat:</strong>  11AM - 23PM
+                             <strong>Sunday:</strong>  Closed
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-3 p-2">
+                        <div class="elements p-1">
+                          <div class="address">
+                            <i class="bi bi-geo-alt"></i> <strong class="ms-2">Follow Us</strong>
+                            <div class="social">
+                              <span class="me-4"><i class="bi bi-facebook"></i></span>
+                              <span class="me-4"><i class="bi bi-twitter-x"></i></span>
+                              <span class="me-4"><i class="bi bi-instagram"></i></span>
+                              <span class=""><i class="bi bi-linkedin"></i></span>
 
-
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="col-12 text-center text-white">
+                        @copyright#etudiantnoir
+                      </div>
+                    </div>
+                  </div>
+                 </footer>
              <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
              <!-- js swipper events -->
               <script>
@@ -621,6 +869,52 @@
                    }
               });
               </script>
+
+              <!-- js swipper gallery -->
+              <script>
+                var swiper = new Swiper('.swipers', {
+                 // Optional parameters
+                //  slidesPerView: 3, // Nombre de diapositives visibles
+                spaceBetween: 10,
+                 loop: true,
+
+                 // If we need pagination
+                 pagination: {
+                   el: '.swiper-pagination',
+                   clickable: true,
+                 },
+                 autoplay: {
+                        delay: 3000, // Durée en millisecondes avant de changer de slide
+                        disableOnInteraction: false, // Ne pas arrêter l'autoplay lors d'une interaction
+                    },
+                    effect: 'slide', // Effet de transition entre les slides (peut être 'slide', 'fade', 'cube', etc.)
+                    speed: 600, // Vitesse de transition en millisecondes
+                 // And if we need scrollbar
+                 scrollbar: {
+                   el: '.swiper-scrollbar',
+                 },
+                 
+                  // Responsivité : adaptation selon la taille de l'écran
+                   breakpoints: {
+                     // Ecrans de moins de 640px (téléphones)
+                     640: {
+                       slidesPerView: 1, // Affiche 1 slide
+                     },
+                     // Ecrans entre 641px et 768px (tablettes)
+                     768: {
+                       slidesPerView: 1, // Affiche 1 slides
+                     },
+                     // Ecrans de plus de 1024px (grands écrans)
+                     1024:{
+                      slidesPerView: 3,
+
+                     },
+                     1200: {
+                       slidesPerView: 5, // Affiche 3 slides
+                     }
+                   }
+              });
+              </script>
               
                                          <!-- swippers js -->
                <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
@@ -643,7 +937,18 @@
             </script>
             
                                           <!-- purecounter -->
-          <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs@1.5.0/dist/purecounter_vanilla.js"></script>
+ <!-- <script>
+  // Initialize PureCounter by Default. It also can be stored on variable
+  new PureCounter();
+  // Initialize PureCounter using custom selector and custom default configuration.
+  // It also can be stored on variable
+  new PureCounter({
+      filesizing: true,
+      selector: ".filesizecount",
+      pulse: 2,
+  });
+</script> -->
+
 
                                 <!-- js bootsrrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
